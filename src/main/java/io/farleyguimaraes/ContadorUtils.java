@@ -2,10 +2,10 @@ package io.farleyguimaraes;
 
 public class ContadorUtils {
 
-    public static boolean isValidParametros(int primeiroParametro, int segundoParametro){
+    public static boolean isFirstParameterLessThanSecond(int firstParameter , int secondParameter){
     
-        return primeiroParametro < segundoParametro;
+        return firstParameter < secondParameter;
 
     }
-
+    
 }
